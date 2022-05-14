@@ -22,4 +22,4 @@ def predire_octroi_score_credit():
 	return jsonify(predictions_client)
 
 if __name__ == "__main__":
-	app.run(debug=True)
+	app.run()
